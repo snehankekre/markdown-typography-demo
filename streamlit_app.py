@@ -19,5 +19,5 @@ Examples to try:
 - Type `<-->` for a long left-right arrow (⟷)
 """)
 
-user_input = st.text_input('Enter some text to see smart typography in action:', placeholder='z <= x >= y <--> x ~= y')
+user_input = st.text_input('Enter some text to see smart typography in action:', value='z <= x >= y <--> x ~= y')
 st.markdown(user_input)
